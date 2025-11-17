@@ -16,13 +16,10 @@ Introducing Badger Vision, an open-source and easy to use tool designed to help 
 Users authenticate the Badger Vision app via a QR code, which downloads pre-configured AI artifacts and settings stored on Pinata. The app streams video through our RTMP server to AI recognition servers, leveraging the Zoom Video SDK. The camera, which can be discreetly placed in a shirt pocket, identifies faces and emotions using deep learning and convolutional neural networks. Detections are sent back to the app in real time over a WebSocket connection,
 
 ## Solving the Unsolvable
-When we ran into challenges working with Zoom, we talked with one of the present sponsors, who had been working as a Zoom engineer for over a decade. The seasoned Zoom engineer said our idea of live-streaming video through Zoom to a server for real-time data analysis was almost certainly impossible. We engineered a solution by writing our own Python API, proving that live-streaming video for this use case was not only possible—it worked.
+When we ran into challenges working with Zoom, we talked with one of the present sponsors, who had been working as a Zoom engineer for over a decade. The seasoned Zoom engineer said our idea of live-streaming video through Zoom to a server for real-time data analysis was almost certainly impossible. We engineered a solution by writing our own Python API, proving that live-streaming video for this use case was possible.
 
 ## Future Work:
 If we acquire the funding to continue work on this project, we would like to pursue several goals. We would perform clinical trials on a diverse population to evaluate effectiveness. We would further refine the codebase and mobile client. We would expand the functionality of the application to AR and VR headsets, including smart glasses.
 
 ## Team Members
 Brennen Hill, Rahul Hathwar, Max Maeder, Utkarsh Sharma, and Jeremy Kintana. I am grateful to have worked with such an amazing team.
-
-## Github
-https://github.com/Bell-Herald/BadgerVision
